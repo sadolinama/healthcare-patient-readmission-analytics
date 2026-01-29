@@ -1,0 +1,501 @@
+patient_id,age,age_group,gender,length_of_stay,prior_admissions,diagnosis_category,discharge_disposition,readmitted_30_days
+10001,69,35-49,Female,4,1,COPD,Home,No
+10002,32,18-34,Male,11,2,Pneumonia,Home,Yes
+10003,89,65+,Female,3,1,COPD,Rehab Facility,No
+10004,78,50-64,Female,4,2,Stroke,Home,Yes
+10005,38,35-49,Female,13,0,Heart Failure,Home,No
+10006,41,65+,Male,12,1,Stroke,Skilled Nursing,No
+10007,20,18-34,Male,7,3,Diabetes,Skilled Nursing,No
+10008,39,50-64,Male,13,4,Diabetes,Home,Yes
+10009,70,18-34,Male,11,0,Pneumonia,Skilled Nursing,Yes
+10010,19,50-64,Female,1,1,Stroke,Skilled Nursing,No
+10011,47,18-34,Male,6,1,Pneumonia,Home,No
+10012,55,18-34,Male,3,3,Pneumonia,Rehab Facility,No
+10013,19,18-34,Female,11,3,Diabetes,Home,Yes
+10014,81,50-64,Male,10,3,Pneumonia,Home,Yes
+10015,77,50-64,Female,7,1,Diabetes,Home,No
+10016,38,50-64,Female,10,0,Heart Failure,Home,No
+10017,50,65+,Female,2,2,Stroke,Rehab Facility,No
+10018,75,35-49,Female,14,3,Pneumonia,Home,Yes
+10019,39,35-49,Female,2,4,Diabetes,Home,No
+10020,66,65+,Female,13,0,COPD,Home,Yes
+10021,76,35-49,Female,4,2,Pneumonia,Home,Yes
+10022,59,65+,Female,1,2,Heart Failure,Home,No
+10023,77,18-34,Male,3,2,Heart Failure,Home,Yes
+10024,32,65+,Male,13,2,COPD,Home,Yes
+10025,79,18-34,Male,9,0,Diabetes,Rehab Facility,Yes
+10026,79,65+,Male,7,0,Pneumonia,Home,No
+10027,64,50-64,Female,7,2,Diabetes,Home,No
+10028,79,65+,Male,13,2,Heart Failure,Home,Yes
+10029,68,18-34,Female,13,3,Diabetes,Skilled Nursing,Yes
+10030,72,50-64,Male,11,1,Heart Failure,Home,Yes
+10031,81,65+,Male,4,5,Diabetes,Home,Yes
+10032,20,50-64,Male,2,1,COPD,Home,No
+10033,68,50-64,Female,14,1,Stroke,Rehab Facility,Yes
+10034,24,50-64,Male,4,2,COPD,Home,No
+10035,38,50-64,Female,6,1,COPD,Skilled Nursing,No
+10036,56,50-64,Female,11,0,Stroke,Home,No
+10037,35,50-64,Male,11,1,Stroke,Home,No
+10038,21,65+,Male,3,1,Pneumonia,Skilled Nursing,No
+10039,77,18-34,Male,1,0,Pneumonia,Home,No
+10040,31,35-49,Female,14,1,COPD,Rehab Facility,No
+10041,26,65+,Male,12,2,COPD,Rehab Facility,Yes
+10042,70,65+,Female,8,1,Heart Failure,Rehab Facility,Yes
+10043,19,50-64,Female,12,2,Heart Failure,Home,Yes
+10044,77,50-64,Male,13,3,Pneumonia,Skilled Nursing,Yes
+10045,88,35-49,Male,5,2,Pneumonia,Home,Yes
+10046,61,18-34,Female,5,1,Heart Failure,Rehab Facility,No
+10047,25,50-64,Female,11,3,Heart Failure,Skilled Nursing,Yes
+10048,64,35-49,Female,4,0,Diabetes,Skilled Nursing,No
+10049,52,50-64,Male,6,1,Diabetes,Home,No
+10050,53,18-34,Female,3,2,Heart Failure,Home,No
+10051,67,65+,Male,9,1,Diabetes,Home,Yes
+10052,21,65+,Female,5,0,Stroke,Skilled Nursing,No
+10053,19,50-64,Female,3,1,Pneumonia,Home,No
+10054,23,50-64,Male,11,2,Pneumonia,Home,Yes
+10055,71,35-49,Female,1,1,Heart Failure,Skilled Nursing,No
+10056,21,65+,Male,10,3,COPD,Home,Yes
+10057,71,50-64,Male,12,1,Heart Failure,Home,Yes
+10058,80,18-34,Female,6,1,Diabetes,Home,No
+10059,35,65+,Male,2,2,COPD,Home,No
+10060,61,65+,Male,13,1,Diabetes,Home,No
+10061,51,65+,Female,3,1,Stroke,Home,No
+10062,79,50-64,Male,1,2,Diabetes,Home,Yes
+10063,31,50-64,Male,9,1,Stroke,Home,No
+10064,65,35-49,Male,8,1,Stroke,Skilled Nursing,No
+10065,32,65+,Female,12,3,Diabetes,Home,Yes
+10066,89,65+,Male,2,0,Diabetes,Home,No
+10067,79,18-34,Female,12,0,Stroke,Rehab Facility,Yes
+10068,57,18-34,Female,11,1,COPD,Home,No
+10069,70,35-49,Male,8,1,Stroke,Home,Yes
+10070,41,65+,Male,12,1,Pneumonia,Skilled Nursing,No
+10071,43,65+,Male,14,2,Stroke,Rehab Facility,Yes
+10072,77,18-34,Female,9,1,COPD,Skilled Nursing,Yes
+10073,58,50-64,Male,1,3,Pneumonia,Skilled Nursing,No
+10074,46,35-49,Male,13,1,Heart Failure,Skilled Nursing,No
+10075,32,65+,Male,5,3,Heart Failure,Home,No
+10076,62,65+,Male,8,1,COPD,Skilled Nursing,No
+10077,82,65+,Male,11,0,Stroke,Home,Yes
+10078,88,50-64,Female,14,2,Diabetes,Rehab Facility,Yes
+10079,26,35-49,Female,2,0,COPD,Home,No
+10080,18,35-49,Male,4,1,Pneumonia,Home,No
+10081,25,18-34,Male,7,3,Pneumonia,Home,No
+10082,80,65+,Male,3,1,Heart Failure,Skilled Nursing,No
+10083,28,65+,Male,13,0,Pneumonia,Home,No
+10084,25,65+,Female,12,4,COPD,Rehab Facility,Yes
+10085,52,65+,Male,5,1,Pneumonia,Skilled Nursing,No
+10086,52,50-64,Female,8,2,COPD,Home,Yes
+10087,50,65+,Female,12,0,Diabetes,Skilled Nursing,No
+10088,22,65+,Male,10,1,Heart Failure,Skilled Nursing,No
+10089,58,65+,Female,3,3,Pneumonia,Skilled Nursing,No
+10090,45,35-49,Female,4,1,COPD,Home,No
+10091,24,50-64,Female,14,0,Stroke,Home,No
+10092,89,18-34,Female,9,1,Heart Failure,Home,Yes
+10093,29,65+,Male,14,1,Diabetes,Home,No
+10094,51,50-64,Male,14,0,COPD,Rehab Facility,No
+10095,50,35-49,Female,7,0,Diabetes,Home,No
+10096,65,50-64,Male,1,3,Diabetes,Skilled Nursing,No
+10097,40,50-64,Male,14,1,Pneumonia,Home,No
+10098,79,35-49,Male,12,0,Pneumonia,Home,Yes
+10099,54,18-34,Male,4,1,COPD,Skilled Nursing,No
+10100,61,50-64,Male,4,0,Stroke,Rehab Facility,No
+10101,52,50-64,Female,9,3,COPD,Home,Yes
+10102,82,65+,Male,6,1,Stroke,Home,No
+10103,64,50-64,Male,9,0,Diabetes,Home,No
+10104,20,65+,Male,12,4,Heart Failure,Home,Yes
+10105,18,50-64,Male,6,2,COPD,Home,No
+10106,22,50-64,Female,6,1,COPD,Home,No
+10107,31,65+,Female,5,2,Stroke,Home,No
+10108,44,35-49,Female,5,0,Diabetes,Skilled Nursing,No
+10109,26,18-34,Female,2,2,Diabetes,Home,No
+10110,32,18-34,Male,8,1,Stroke,Home,No
+10111,59,65+,Female,8,1,Diabetes,Home,No
+10112,68,50-64,Male,11,2,Pneumonia,Skilled Nursing,Yes
+10113,80,50-64,Male,13,0,Heart Failure,Rehab Facility,Yes
+10114,69,35-49,Male,1,0,COPD,Home,No
+10115,21,18-34,Male,8,1,Heart Failure,Skilled Nursing,No
+10116,40,18-34,Male,5,2,COPD,Home,No
+10117,32,35-49,Female,2,0,Pneumonia,Home,No
+10118,60,50-64,Female,14,0,Diabetes,Home,No
+10119,46,35-49,Female,2,1,Stroke,Home,No
+10120,53,35-49,Female,14,4,Pneumonia,Skilled Nursing,Yes
+10121,30,65+,Male,6,1,Heart Failure,Rehab Facility,No
+10122,49,35-49,Female,11,0,Stroke,Home,No
+10123,88,50-64,Male,13,3,Diabetes,Skilled Nursing,Yes
+10124,76,65+,Female,9,2,Pneumonia,Home,Yes
+10125,45,35-49,Male,1,3,Stroke,Home,No
+10126,83,50-64,Male,12,1,Pneumonia,Home,Yes
+10127,59,65+,Female,6,3,Pneumonia,Home,No
+10128,62,65+,Male,9,2,Diabetes,Home,Yes
+10129,79,18-34,Male,8,0,COPD,Home,Yes
+10130,74,65+,Female,11,3,Stroke,Home,Yes
+10131,23,50-64,Male,6,0,Diabetes,Home,No
+10132,45,35-49,Female,3,1,Pneumonia,Skilled Nursing,No
+10133,45,50-64,Female,8,5,Diabetes,Home,Yes
+10134,61,65+,Female,9,2,COPD,Rehab Facility,Yes
+10135,47,50-64,Male,1,0,Stroke,Home,No
+10136,79,35-49,Male,12,1,COPD,Skilled Nursing,Yes
+10137,79,50-64,Male,9,3,Heart Failure,Rehab Facility,Yes
+10138,18,35-49,Female,14,2,Stroke,Skilled Nursing,Yes
+10139,44,18-34,Male,6,1,COPD,Home,No
+10140,79,18-34,Female,6,0,Pneumonia,Skilled Nursing,No
+10141,20,18-34,Female,12,3,Stroke,Home,Yes
+10142,87,18-34,Male,4,0,Stroke,Home,No
+10143,89,18-34,Female,1,1,Diabetes,Home,No
+10144,44,50-64,Male,10,3,Pneumonia,Home,Yes
+10145,26,18-34,Male,8,0,Heart Failure,Home,No
+10146,79,35-49,Male,2,0,COPD,Rehab Facility,No
+10147,54,65+,Male,12,0,Diabetes,Skilled Nursing,No
+10148,68,50-64,Male,1,1,COPD,Home,No
+10149,61,50-64,Female,2,1,Heart Failure,Rehab Facility,No
+10150,41,18-34,Female,1,1,Heart Failure,Home,No
+10151,76,18-34,Female,1,2,Stroke,Rehab Facility,Yes
+10152,49,18-34,Male,9,1,Heart Failure,Home,No
+10153,69,18-34,Male,13,2,COPD,Home,Yes
+10154,79,35-49,Male,14,2,Pneumonia,Skilled Nursing,Yes
+10155,75,18-34,Female,1,1,Pneumonia,Skilled Nursing,No
+10156,69,18-34,Male,13,3,Stroke,Skilled Nursing,Yes
+10157,29,18-34,Female,4,0,COPD,Rehab Facility,No
+10158,56,50-64,Female,10,2,COPD,Skilled Nursing,Yes
+10159,19,35-49,Male,6,2,Heart Failure,Skilled Nursing,No
+10160,20,35-49,Male,7,1,COPD,Rehab Facility,No
+10161,73,50-64,Female,2,2,Diabetes,Skilled Nursing,Yes
+10162,76,50-64,Male,6,1,Heart Failure,Home,No
+10163,19,18-34,Female,7,3,Diabetes,Rehab Facility,No
+10164,19,65+,Male,10,0,Stroke,Home,No
+10165,71,50-64,Male,14,0,Pneumonia,Skilled Nursing,Yes
+10166,18,18-34,Female,10,2,Stroke,Rehab Facility,Yes
+10167,36,65+,Male,2,0,Pneumonia,Skilled Nursing,No
+10168,19,65+,Female,2,4,Stroke,Skilled Nursing,No
+10169,70,18-34,Male,10,0,COPD,Skilled Nursing,Yes
+10170,61,35-49,Female,7,2,Diabetes,Home,No
+10171,49,65+,Female,12,4,Pneumonia,Rehab Facility,Yes
+10172,87,50-64,Male,1,3,Heart Failure,Home,Yes
+10173,49,18-34,Female,8,1,Diabetes,Home,No
+10174,85,35-49,Male,11,5,Heart Failure,Home,Yes
+10175,72,35-49,Male,13,1,Diabetes,Home,Yes
+10176,73,50-64,Male,3,2,Diabetes,Home,Yes
+10177,34,50-64,Female,11,0,Stroke,Skilled Nursing,No
+10178,55,35-49,Female,6,0,Pneumonia,Home,No
+10179,41,50-64,Male,9,1,Pneumonia,Home,No
+10180,86,50-64,Male,6,0,Diabetes,Home,No
+10181,87,18-34,Female,9,0,COPD,Home,Yes
+10182,28,35-49,Male,7,0,COPD,Skilled Nursing,No
+10183,33,50-64,Male,9,0,Heart Failure,Home,No
+10184,76,65+,Female,2,1,Heart Failure,Home,No
+10185,87,50-64,Male,12,3,Stroke,Home,Yes
+10186,20,50-64,Female,8,1,Diabetes,Home,No
+10187,37,18-34,Male,8,0,Heart Failure,Home,No
+10188,76,35-49,Female,2,2,Heart Failure,Home,Yes
+10189,53,50-64,Male,12,0,Diabetes,Skilled Nursing,No
+10190,36,35-49,Male,14,1,Stroke,Skilled Nursing,No
+10191,84,35-49,Female,4,0,Heart Failure,Home,No
+10192,36,35-49,Male,14,3,Stroke,Rehab Facility,Yes
+10193,37,18-34,Female,11,2,Pneumonia,Home,Yes
+10194,88,35-49,Male,7,0,Stroke,Home,No
+10195,69,35-49,Female,11,1,COPD,Rehab Facility,Yes
+10196,50,35-49,Female,4,1,COPD,Home,No
+10197,57,18-34,Female,4,3,Stroke,Rehab Facility,No
+10198,56,65+,Female,6,0,COPD,Home,No
+10199,18,50-64,Male,10,2,Pneumonia,Home,Yes
+10200,28,50-64,Male,6,5,Diabetes,Home,No
+10201,74,65+,Female,10,2,COPD,Skilled Nursing,Yes
+10202,67,50-64,Female,3,3,COPD,Skilled Nursing,Yes
+10203,40,18-34,Female,9,2,Stroke,Skilled Nursing,Yes
+10204,48,50-64,Male,12,1,Pneumonia,Home,No
+10205,59,50-64,Male,10,1,Diabetes,Home,No
+10206,24,50-64,Male,14,1,Stroke,Home,No
+10207,33,35-49,Male,11,3,Stroke,Home,Yes
+10208,77,18-34,Female,2,3,Pneumonia,Rehab Facility,Yes
+10209,19,35-49,Female,6,0,Diabetes,Home,No
+10210,18,35-49,Female,12,1,Pneumonia,Skilled Nursing,No
+10211,65,50-64,Male,7,2,Diabetes,Skilled Nursing,No
+10212,29,50-64,Male,12,0,Pneumonia,Home,No
+10213,86,35-49,Male,13,1,Stroke,Skilled Nursing,Yes
+10214,54,65+,Female,9,0,Stroke,Home,No
+10215,49,50-64,Female,13,1,Heart Failure,Home,No
+10216,26,35-49,Male,3,3,COPD,Home,No
+10217,36,18-34,Female,10,2,Pneumonia,Home,Yes
+10218,65,18-34,Male,3,1,Heart Failure,Home,No
+10219,20,35-49,Male,7,2,COPD,Home,No
+10220,37,18-34,Female,14,2,Pneumonia,Home,Yes
+10221,41,18-34,Male,4,1,Diabetes,Home,No
+10222,71,35-49,Female,13,1,COPD,Skilled Nursing,Yes
+10223,50,18-34,Male,8,4,Stroke,Skilled Nursing,Yes
+10224,41,65+,Female,13,2,Heart Failure,Home,Yes
+10225,89,18-34,Female,7,1,COPD,Home,No
+10226,53,50-64,Female,5,1,COPD,Skilled Nursing,No
+10227,55,35-49,Male,7,2,Stroke,Home,No
+10228,42,65+,Male,3,0,Pneumonia,Skilled Nursing,No
+10229,35,18-34,Female,12,2,Diabetes,Home,Yes
+10230,83,35-49,Female,2,3,Stroke,Home,Yes
+10231,71,65+,Male,6,1,Diabetes,Home,No
+10232,52,65+,Male,2,3,Pneumonia,Home,No
+10233,78,65+,Male,3,2,COPD,Skilled Nursing,Yes
+10234,58,35-49,Female,6,1,Diabetes,Home,No
+10235,50,18-34,Male,5,0,Heart Failure,Skilled Nursing,No
+10236,85,50-64,Male,8,3,Heart Failure,Rehab Facility,Yes
+10237,50,65+,Female,9,1,Stroke,Home,No
+10238,31,50-64,Male,11,3,Pneumonia,Skilled Nursing,Yes
+10239,38,50-64,Male,3,2,Stroke,Home,No
+10240,65,35-49,Male,12,2,Stroke,Home,Yes
+10241,37,65+,Female,10,0,Stroke,Skilled Nursing,No
+10242,25,18-34,Female,3,1,Heart Failure,Home,No
+10243,24,35-49,Female,3,2,Heart Failure,Home,No
+10244,84,35-49,Female,13,3,Stroke,Home,Yes
+10245,34,50-64,Female,13,1,Heart Failure,Home,No
+10246,50,35-49,Female,6,2,Pneumonia,Rehab Facility,No
+10247,65,18-34,Female,1,1,Stroke,Rehab Facility,No
+10248,76,50-64,Male,7,0,Heart Failure,Skilled Nursing,No
+10249,39,35-49,Male,12,1,Diabetes,Skilled Nursing,No
+10250,47,50-64,Female,1,0,Stroke,Home,No
+10251,55,18-34,Male,14,0,Stroke,Home,No
+10252,68,50-64,Male,5,2,Pneumonia,Home,Yes
+10253,71,50-64,Female,10,1,COPD,Home,Yes
+10254,25,18-34,Male,13,0,COPD,Home,No
+10255,44,35-49,Male,8,2,Pneumonia,Rehab Facility,Yes
+10256,44,18-34,Male,4,1,Pneumonia,Home,No
+10257,38,18-34,Male,5,1,Pneumonia,Home,No
+10258,47,65+,Male,4,1,COPD,Home,No
+10259,45,35-49,Female,12,2,Pneumonia,Skilled Nursing,Yes
+10260,81,65+,Female,12,2,Heart Failure,Skilled Nursing,Yes
+10261,86,35-49,Female,14,3,Stroke,Home,Yes
+10262,78,50-64,Male,4,0,Stroke,Home,No
+10263,65,65+,Female,12,3,Diabetes,Skilled Nursing,Yes
+10264,36,50-64,Male,8,0,Diabetes,Home,No
+10265,21,50-64,Male,2,4,Stroke,Home,No
+10266,52,35-49,Male,1,0,Heart Failure,Skilled Nursing,No
+10267,81,35-49,Male,3,1,COPD,Skilled Nursing,No
+10268,66,65+,Female,9,0,COPD,Home,Yes
+10269,34,65+,Female,4,1,Heart Failure,Skilled Nursing,No
+10270,61,65+,Male,10,2,COPD,Skilled Nursing,Yes
+10271,47,18-34,Female,5,2,Pneumonia,Home,No
+10272,63,50-64,Male,2,4,Stroke,Rehab Facility,No
+10273,23,65+,Female,4,1,Stroke,Skilled Nursing,No
+10274,54,18-34,Female,2,2,Heart Failure,Skilled Nursing,No
+10275,41,18-34,Male,2,0,COPD,Skilled Nursing,No
+10276,63,50-64,Female,4,0,Diabetes,Home,No
+10277,70,50-64,Male,6,3,Diabetes,Home,Yes
+10278,77,65+,Female,7,0,COPD,Home,No
+10279,80,18-34,Male,10,2,Diabetes,Home,Yes
+10280,49,65+,Male,3,3,Heart Failure,Home,No
+10281,50,35-49,Female,3,0,Heart Failure,Rehab Facility,No
+10282,84,18-34,Female,10,1,COPD,Skilled Nursing,Yes
+10283,35,18-34,Male,6,1,Diabetes,Skilled Nursing,No
+10284,42,65+,Female,13,1,Heart Failure,Rehab Facility,No
+10285,71,50-64,Female,12,2,Heart Failure,Skilled Nursing,Yes
+10286,75,50-64,Male,3,0,Pneumonia,Home,No
+10287,84,35-49,Male,13,2,Pneumonia,Home,Yes
+10288,63,65+,Female,2,1,Heart Failure,Home,No
+10289,41,35-49,Male,8,3,COPD,Skilled Nursing,Yes
+10290,49,65+,Male,5,1,Stroke,Home,No
+10291,64,35-49,Male,1,0,Stroke,Skilled Nursing,No
+10292,40,35-49,Female,3,3,Heart Failure,Home,No
+10293,83,50-64,Female,10,0,Heart Failure,Skilled Nursing,Yes
+10294,44,35-49,Male,8,1,Heart Failure,Skilled Nursing,No
+10295,19,50-64,Female,4,1,COPD,Skilled Nursing,No
+10296,34,50-64,Male,14,0,Pneumonia,Rehab Facility,No
+10297,50,35-49,Female,7,2,Heart Failure,Skilled Nursing,No
+10298,26,65+,Male,10,0,Heart Failure,Rehab Facility,No
+10299,60,35-49,Male,12,1,Diabetes,Rehab Facility,No
+10300,65,50-64,Female,14,1,COPD,Skilled Nursing,No
+10301,56,65+,Male,14,6,Heart Failure,Skilled Nursing,Yes
+10302,59,50-64,Female,2,2,Diabetes,Home,No
+10303,43,18-34,Female,7,2,Stroke,Home,No
+10304,67,65+,Male,5,0,Heart Failure,Home,No
+10305,42,50-64,Male,5,0,Heart Failure,Home,No
+10306,41,35-49,Female,6,1,Diabetes,Home,No
+10307,30,18-34,Male,13,1,COPD,Rehab Facility,No
+10308,77,65+,Male,9,1,Heart Failure,Rehab Facility,Yes
+10309,24,50-64,Male,14,1,Stroke,Skilled Nursing,No
+10310,74,50-64,Male,6,1,Heart Failure,Home,No
+10311,53,65+,Male,12,3,Stroke,Home,Yes
+10312,62,65+,Female,13,4,Pneumonia,Home,Yes
+10313,37,18-34,Female,14,1,Pneumonia,Home,No
+10314,82,35-49,Male,8,3,Stroke,Home,Yes
+10315,25,35-49,Male,7,0,COPD,Home,No
+10316,33,50-64,Male,9,2,Heart Failure,Rehab Facility,Yes
+10317,31,18-34,Female,4,0,Heart Failure,Skilled Nursing,No
+10318,32,50-64,Male,2,1,Pneumonia,Home,No
+10319,83,65+,Female,7,1,Stroke,Home,No
+10320,49,65+,Female,6,1,Heart Failure,Home,No
+10321,80,35-49,Female,1,2,Heart Failure,Home,Yes
+10322,68,65+,Male,11,1,COPD,Rehab Facility,Yes
+10323,42,18-34,Female,9,0,Diabetes,Home,No
+10324,75,65+,Male,9,3,Pneumonia,Home,Yes
+10325,80,18-34,Female,12,1,Pneumonia,Home,Yes
+10326,79,35-49,Male,2,1,Diabetes,Home,No
+10327,39,65+,Female,3,2,Heart Failure,Skilled Nursing,No
+10328,75,18-34,Male,5,2,COPD,Skilled Nursing,Yes
+10329,75,35-49,Female,5,2,COPD,Skilled Nursing,Yes
+10330,66,50-64,Male,1,0,Pneumonia,Home,No
+10331,69,50-64,Male,8,2,COPD,Home,Yes
+10332,59,50-64,Male,12,1,Diabetes,Home,No
+10333,87,50-64,Male,8,2,Heart Failure,Rehab Facility,Yes
+10334,32,50-64,Female,4,1,Diabetes,Home,No
+10335,71,35-49,Female,13,3,Stroke,Home,Yes
+10336,77,35-49,Male,7,2,Pneumonia,Skilled Nursing,Yes
+10337,25,18-34,Female,11,1,COPD,Skilled Nursing,No
+10338,70,65+,Male,10,0,Stroke,Home,Yes
+10339,77,50-64,Male,3,1,COPD,Home,No
+10340,22,35-49,Female,6,2,Heart Failure,Home,No
+10341,85,50-64,Male,14,3,Heart Failure,Rehab Facility,Yes
+10342,23,65+,Male,10,0,Heart Failure,Home,No
+10343,64,18-34,Female,13,1,COPD,Rehab Facility,No
+10344,72,50-64,Male,10,2,Stroke,Home,Yes
+10345,57,50-64,Male,12,3,Heart Failure,Rehab Facility,Yes
+10346,69,50-64,Male,14,1,Stroke,Skilled Nursing,Yes
+10347,33,18-34,Male,9,1,COPD,Home,No
+10348,30,65+,Female,1,3,Stroke,Rehab Facility,No
+10349,47,65+,Female,5,2,COPD,Home,No
+10350,36,50-64,Female,4,2,COPD,Rehab Facility,No
+10351,34,50-64,Male,8,2,Pneumonia,Skilled Nursing,Yes
+10352,80,65+,Male,11,3,COPD,Home,Yes
+10353,36,50-64,Female,12,2,COPD,Skilled Nursing,Yes
+10354,75,18-34,Male,1,3,Diabetes,Rehab Facility,Yes
+10355,72,50-64,Male,9,1,Heart Failure,Home,Yes
+10356,79,50-64,Male,6,0,Pneumonia,Home,No
+10357,40,35-49,Male,4,0,Pneumonia,Skilled Nursing,No
+10358,26,50-64,Female,12,0,Pneumonia,Skilled Nursing,No
+10359,29,65+,Female,9,3,Diabetes,Home,Yes
+10360,18,65+,Female,11,4,COPD,Home,Yes
+10361,75,50-64,Male,5,0,Heart Failure,Home,No
+10362,18,18-34,Female,5,3,Stroke,Home,No
+10363,51,65+,Female,12,2,COPD,Home,Yes
+10364,65,65+,Male,5,2,Diabetes,Rehab Facility,No
+10365,18,18-34,Male,1,0,COPD,Home,No
+10366,33,65+,Female,1,3,COPD,Skilled Nursing,No
+10367,78,65+,Female,8,1,Diabetes,Home,Yes
+10368,81,50-64,Female,12,2,Pneumonia,Home,Yes
+10369,80,50-64,Female,8,1,Pneumonia,Home,Yes
+10370,86,35-49,Male,12,1,Heart Failure,Home,Yes
+10371,39,18-34,Female,6,1,Heart Failure,Skilled Nursing,No
+10372,84,35-49,Female,12,1,Pneumonia,Rehab Facility,Yes
+10373,43,65+,Male,11,1,Stroke,Skilled Nursing,No
+10374,33,18-34,Female,13,3,COPD,Rehab Facility,Yes
+10375,68,35-49,Male,4,1,Stroke,Rehab Facility,No
+10376,74,35-49,Male,2,2,COPD,Home,Yes
+10377,46,50-64,Male,14,0,Pneumonia,Skilled Nursing,No
+10378,86,65+,Female,2,3,Heart Failure,Skilled Nursing,Yes
+10379,64,35-49,Female,9,1,Heart Failure,Home,No
+10380,79,35-49,Male,5,0,Stroke,Skilled Nursing,No
+10381,86,50-64,Female,4,1,Heart Failure,Home,No
+10382,33,50-64,Female,10,2,Pneumonia,Home,Yes
+10383,65,35-49,Male,13,0,Stroke,Skilled Nursing,No
+10384,56,50-64,Male,1,0,COPD,Home,No
+10385,50,18-34,Female,7,2,Heart Failure,Home,No
+10386,40,18-34,Male,3,1,Diabetes,Rehab Facility,No
+10387,27,50-64,Female,6,1,Heart Failure,Skilled Nursing,No
+10388,86,35-49,Female,5,2,COPD,Home,Yes
+10389,51,65+,Female,5,1,Stroke,Skilled Nursing,No
+10390,69,35-49,Female,11,2,COPD,Home,Yes
+10391,27,50-64,Male,5,1,Diabetes,Home,No
+10392,36,50-64,Male,1,0,Pneumonia,Rehab Facility,No
+10393,75,18-34,Male,1,4,Heart Failure,Skilled Nursing,Yes
+10394,18,50-64,Male,3,0,Stroke,Home,No
+10395,86,18-34,Female,14,1,Pneumonia,Skilled Nursing,Yes
+10396,21,65+,Female,12,2,COPD,Rehab Facility,Yes
+10397,33,18-34,Male,10,0,Stroke,Home,No
+10398,41,35-49,Female,4,2,Pneumonia,Home,No
+10399,19,18-34,Female,5,2,Stroke,Home,No
+10400,49,65+,Female,2,2,Diabetes,Skilled Nursing,No
+10401,41,50-64,Male,8,1,Diabetes,Skilled Nursing,No
+10402,29,50-64,Male,11,2,Heart Failure,Skilled Nursing,Yes
+10403,67,18-34,Male,11,2,Heart Failure,Rehab Facility,Yes
+10404,52,50-64,Female,14,1,Diabetes,Skilled Nursing,No
+10405,50,35-49,Male,2,3,Stroke,Home,No
+10406,50,65+,Male,9,2,Diabetes,Home,Yes
+10407,78,35-49,Male,2,1,Heart Failure,Home,No
+10408,68,18-34,Male,13,2,Diabetes,Home,Yes
+10409,60,18-34,Male,9,2,Diabetes,Skilled Nursing,Yes
+10410,29,50-64,Male,7,3,Stroke,Rehab Facility,No
+10411,84,50-64,Female,8,2,Pneumonia,Home,Yes
+10412,82,18-34,Female,11,2,Heart Failure,Home,Yes
+10413,50,65+,Male,2,3,Stroke,Skilled Nursing,No
+10414,57,50-64,Male,7,3,Diabetes,Home,No
+10415,60,50-64,Female,12,3,Diabetes,Home,Yes
+10416,61,35-49,Female,6,1,Pneumonia,Home,No
+10417,46,35-49,Male,4,0,Heart Failure,Home,No
+10418,30,50-64,Male,7,1,Heart Failure,Rehab Facility,No
+10419,29,18-34,Male,14,1,COPD,Home,No
+10420,63,18-34,Male,13,1,Heart Failure,Home,No
+10421,19,65+,Female,4,1,Pneumonia,Home,No
+10422,52,65+,Male,2,3,COPD,Rehab Facility,No
+10423,25,35-49,Male,10,3,COPD,Home,Yes
+10424,43,35-49,Male,12,2,Diabetes,Home,Yes
+10425,51,50-64,Male,7,3,Diabetes,Home,No
+10426,24,35-49,Female,8,1,Heart Failure,Home,No
+10427,85,18-34,Female,2,0,COPD,Home,No
+10428,75,18-34,Female,5,0,Diabetes,Skilled Nursing,No
+10429,46,50-64,Male,1,1,Pneumonia,Home,No
+10430,53,50-64,Male,7,0,Diabetes,Home,No
+10431,38,18-34,Female,8,0,Diabetes,Skilled Nursing,No
+10432,53,35-49,Male,13,5,COPD,Home,Yes
+10433,27,35-49,Male,6,2,COPD,Home,No
+10434,41,50-64,Female,5,1,Stroke,Home,No
+10435,81,18-34,Female,6,1,Pneumonia,Rehab Facility,No
+10436,66,18-34,Female,2,3,COPD,Home,Yes
+10437,53,65+,Female,1,0,Heart Failure,Rehab Facility,No
+10438,41,18-34,Male,7,2,Pneumonia,Skilled Nursing,No
+10439,40,50-64,Male,7,1,Pneumonia,Home,No
+10440,79,35-49,Female,10,1,COPD,Rehab Facility,Yes
+10441,54,18-34,Male,11,2,Pneumonia,Home,Yes
+10442,29,35-49,Female,10,2,COPD,Home,Yes
+10443,72,50-64,Female,14,0,Diabetes,Skilled Nursing,Yes
+10444,30,65+,Male,2,1,Stroke,Skilled Nursing,No
+10445,40,65+,Female,2,3,Diabetes,Skilled Nursing,No
+10446,47,35-49,Male,1,0,COPD,Home,No
+10447,34,50-64,Male,10,0,COPD,Home,No
+10448,79,35-49,Male,8,2,Diabetes,Skilled Nursing,Yes
+10449,30,35-49,Male,8,4,Heart Failure,Home,Yes
+10450,76,65+,Female,1,2,Heart Failure,Home,Yes
+10451,36,18-34,Male,12,1,Heart Failure,Home,No
+10452,66,18-34,Female,11,1,COPD,Home,Yes
+10453,29,35-49,Female,8,0,Pneumonia,Rehab Facility,No
+10454,78,18-34,Female,9,3,COPD,Home,Yes
+10455,36,18-34,Female,14,3,Pneumonia,Rehab Facility,Yes
+10456,26,50-64,Male,4,1,Diabetes,Home,No
+10457,88,35-49,Male,1,0,Stroke,Skilled Nursing,No
+10458,45,65+,Female,1,4,Pneumonia,Home,No
+10459,69,65+,Female,3,1,Heart Failure,Home,No
+10460,33,35-49,Male,14,1,COPD,Home,No
+10461,86,35-49,Female,5,2,Diabetes,Home,Yes
+10462,29,35-49,Male,5,5,Heart Failure,Home,No
+10463,42,50-64,Female,9,3,Diabetes,Rehab Facility,Yes
+10464,69,35-49,Male,10,0,Stroke,Skilled Nursing,Yes
+10465,70,50-64,Female,14,4,COPD,Home,Yes
+10466,40,35-49,Female,12,1,COPD,Home,No
+10467,33,50-64,Male,2,0,Stroke,Home,No
+10468,74,35-49,Female,2,1,COPD,Home,No
+10469,56,35-49,Female,6,2,Pneumonia,Skilled Nursing,No
+10470,70,65+,Male,9,3,Diabetes,Rehab Facility,Yes
+10471,59,65+,Female,1,1,Heart Failure,Home,No
+10472,75,18-34,Male,9,2,Stroke,Home,Yes
+10473,56,65+,Male,9,2,Pneumonia,Home,Yes
+10474,31,50-64,Female,13,1,Heart Failure,Skilled Nursing,No
+10475,22,65+,Female,9,2,Heart Failure,Home,Yes
+10476,52,65+,Female,5,3,Stroke,Skilled Nursing,No
+10477,35,35-49,Female,13,2,Pneumonia,Skilled Nursing,Yes
+10478,26,18-34,Female,9,2,Heart Failure,Home,Yes
+10479,75,35-49,Female,11,2,Heart Failure,Skilled Nursing,Yes
+10480,34,50-64,Female,4,2,Pneumonia,Home,No
+10481,24,50-64,Male,2,0,COPD,Skilled Nursing,No
+10482,63,35-49,Female,13,0,Heart Failure,Home,No
+10483,30,18-34,Male,6,4,Diabetes,Home,No
+10484,57,65+,Female,14,1,Pneumonia,Rehab Facility,No
+10485,59,65+,Female,4,4,Heart Failure,Rehab Facility,No
+10486,26,50-64,Male,6,2,Stroke,Skilled Nursing,No
+10487,67,18-34,Female,3,1,Diabetes,Home,No
+10488,44,35-49,Female,6,1,Heart Failure,Skilled Nursing,No
+10489,83,18-34,Male,2,2,Diabetes,Home,Yes
+10490,22,65+,Female,2,1,Diabetes,Rehab Facility,No
+10491,46,18-34,Female,13,0,COPD,Home,No
+10492,54,50-64,Female,9,2,Diabetes,Rehab Facility,Yes
+10493,55,35-49,Male,7,1,COPD,Rehab Facility,No
+10494,25,50-64,Female,3,0,Pneumonia,Skilled Nursing,No
+10495,82,50-64,Female,13,1,COPD,Home,Yes
+10496,34,65+,Female,11,2,Stroke,Home,Yes
+10497,88,35-49,Female,1,2,Heart Failure,Rehab Facility,Yes
+10498,62,18-34,Male,8,3,Pneumonia,Home,Yes
+10499,21,18-34,Male,14,3,Pneumonia,Rehab Facility,Yes
+10500,53,65+,Female,6,0,Stroke,Home,No
